@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emre Yazici - Computer Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>EY</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-laptop-code"></i> Projects</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-tools"></i> Skills</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Home Section -->
+            <section id="home" class="animate-on-scroll">
+                <div class="hero-background">
+                    <div class="floating-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                    </div>
+                </div>
+                <p class="welcome-text">Welcome to My Portfolio</p>
+                <h1 class="typewriter">Emre Yazici</h1>
+                <p class="subtitle">Computer Engineering Student</p>
+                <p class="university">
+                    <i class="fas fa-university"></i>
+                    Fatih Sultan Mehmet University - 3rd Year
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-eye"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i>
+                        Get In Touch
+                    </a>
+                </div>
+                
+                <div class="info-cards">
+                    <div class="info-card animate-on-scroll" data-delay="0.1">
+                        <div class="info-card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Education</h3>
+                        <p>3rd Year Computer Engineering Student</p>
+                    </div>
+                    <div class="info-card animate-on-scroll" data-delay="0.2">
+                        <div class="info-card-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Experience</h3>
+                        <p>Intern at AktifTech</p>
+                    </div>
+                    <div class="info-card animate-on-scroll" data-delay="0.3">
+                        <div class="info-card-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Projects</h3>
+                        <p>5+ Completed Projects</p>
+                    </div>
+                    <div class="info-card animate-on-scroll" data-delay="0.4">
+                        <div class="info-card-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Focus</h3>
+                        <p>Software Development & Data Structures</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section animate-on-scroll">
+                <div class="section-header">
+                    <h2><i class="fas fa-user"></i> About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate Computer Engineering student in my third year at Fatih Sultan Mehmet University. I love building practical applications that solve real-world problems, with a focus on data structures, algorithms, and software development.</p>
+                        
+                        <p>Currently gaining professional experience as an intern at AktifTech, where I'm applying my technical skills in a real-world environment. My projects demonstrate my ability to work with various programming languages and technologies, from game development to database management systems.</p>
+                        
+                        <p>I'm constantly learning and exploring new technologies to enhance my skill set, with a particular interest in modern software development practices and emerging technologies in the field of computer engineering.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="3">0</div>
+                            <div class="stat-label">Years of Study</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="5">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="8">0</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section">
+                <h2>Professional Experience</h2>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Software Development Intern</h3>
+                            <p class="experience-company">AktifTech</p>
+                        </div>
+                        <p class="experience-date">Current</p>
+                    </div>
+                    <p>Gaining hands-on experience in software development, working with modern technologies and contributing to real-world projects. Developing skills in professional software development practices, collaborative team environments, and industry-standard development workflows.</p>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section animate-on-scroll">
+                <div class="section-header">
+                    <h2><i class="fas fa-laptop-code"></i> Featured Projects</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="java">Java</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="game">Game</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card animate-on-scroll" data-category="java game" data-delay="0.1">
+                        <div class="project-image">
+                            <i class="fas fa-gamepad project-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div>
+                                    <h3 class="project-title">Treasure Hunter Game</h3>
+                                </div>
+                                <a href="https://github.com/Emyazici/Treasure-Hunter-Game" class="project-github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                            <p class="project-description">A strategic game implementing Singly Linked List and Binary Search Tree for efficient board and score management. Features dynamic gameplay with optimized data structure usage for performance.</p>
+                            <div class="project-tech-stack">
+                                <span class="project-tech">Java</span>
+                                <span class="project-tech">Data Structures</span>
+                                <span class="project-tech">Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-on-scroll" data-category="java" data-delay="0.2">
+                        <div class="project-image">
+                            <i class="fas fa-users project-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div>
+                                    <h3 class="project-title">Student Management System</h3>
+                                </div>
+                                <a href="https://github.com/Emyazici/Student-Management-System-Java-Swing---MySQL-" class="project-github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                            <p class="project-description">A comprehensive GUI-based desktop application for student registration and record management. Features MySQL database integration with intuitive Java Swing interface.</p>
+                            <div class="project-tech-stack">
+                                <span class="project-tech">Java</span>
+                                <span class="project-tech">MySQL</span>
+                                <span class="project-tech">Swing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-on-scroll" data-category="java" data-delay="0.3">
+                        <div class="project-image">
+                            <i class="fas fa-building project-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div>
+                                    <h3 class="project-title">Department & Employee Tracker</h3>
+                                </div>
+                                <a href="https://github.com/Emyazici/Department-and-Employee-Tracker" class="project-github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                            <p class="project-description">Console-based application with advanced file I/O capabilities for organizing employee records by department. Demonstrates efficient file handling and data organization techniques.</p>
+                            <div class="project-tech-stack">
+                                <span class="project-tech">C</span>
+                                <span class="project-tech">File I/O</span>
+                                <span class="project-tech">Data Management</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-on-scroll" data-category="java game" data-delay="0.4">
+                        <div class="project-image">
+                            <i class="fas fa-map project-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div>
+                                    <h3 class="project-title">Maze Game</h3>
+                                </div>
+                                <a href="https://github.com/Emyazici/Maze-Game" class="project-github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                            <p class="project-description">An interactive console-based maze navigation game with arrow key controls and intelligent obstacle logic. Features smooth gameplay mechanics and user-friendly interface.</p>
+                            <div class="project-tech-stack">
+                                <span class="project-tech">Java</span>
+                                <span class="project-tech">Game Logic</span>
+                                <span class="project-tech">Interactive UI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card animate-on-scroll" data-category="web" data-delay="0.5">
+                        <div class="project-image">
+                            <i class="fas fa-globe project-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div>
+                                    <h3 class="project-title">Yazici Palet Web</h3>
+                                </div>
+                                <a href="https://github.com/Emyazici/yazici_palet_web" class="project-github" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                            <p class="project-description">A modern web-based project showcasing advanced HTML/CSS skills with contemporary design principles, responsive layouts, and interactive elements.</p>
+                            <div class="project-tech-stack">
+                                <span class="project-tech">HTML</span>
+                                <span class="project-tech">CSS</span>
+                                <span class="project-tech">Web Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section animate-on-scroll">
+                <div class="section-header">
+                    <h2><i class="fas fa-tools"></i> Technical Skills</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category animate-on-scroll" data-delay="0.1">
+                        <div class="skill-category-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">C</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">C#</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88%"></div>
+                                </div>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category animate-on-scroll" data-delay="0.2">
+                        <div class="skill-category-header">
+                            <i class="fas fa-cogs"></i>
+                            <h3>Frameworks & Technologies</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> .NET</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> Java Swing</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> MySQL</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> Git</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> GitHub</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category animate-on-scroll" data-delay="0.3">
+                        <div class="skill-category-header">
+                            <i class="fas fa-brain"></i>
+                            <h3>Core Concepts</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> Data Structures</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> Algorithms</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> Object-Oriented Programming</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> Database Design</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> Software Architecture</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category animate-on-scroll" data-delay="0.4">
+                        <div class="skill-category-header">
+                            <i class="fas fa-rocket"></i>
+                            <h3>Development Areas</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> Game Development</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> Desktop Applications</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> Web Development</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> Database Management</span>
+                            <span class="skill-tag"><i class="fas fa-dot-circle"></i> System Design</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section animate-on-scroll">
+                <div class="section-header">
+                    <h2><i class="fas fa-envelope"></i> Get In Touch</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <p>I'm always open to discussing new opportunities, collaborations, or just connecting with fellow developers. Feel free to reach out!</p>
+                <div class="contact-grid">
+                    <a href="mailto:emreyazici295@gmail.com" class="contact-item animate-on-scroll" data-delay="0.1">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>emreyazici295@gmail.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/emreyazicii" class="contact-item animate-on-scroll" data-delay="0.2" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/emreyazicii</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/Emyazici" class="contact-item animate-on-scroll" data-delay="0.3" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <p>github.com/Emyazici</p>
+                        </div>
+                    </a>
+                    
+                    <div class="contact-item animate-on-scroll" data-delay="0.4">
+                        <div class="contact-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>University</h3>
+                            <p>Fatih Sultan Mehmet University</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+        
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+            const icon = themeToggle.querySelector('i');
+            if (body.classList.contains('dark-theme')) {
+                icon.className = 'fas fa-sun';
+            } else {
+                icon.className = 'fas fa-moon';
+            }
+        });
+
+        // Navigation functionality
+        const navbar = document.querySelector('.navbar');
+        const navLinks = document.querySelectorAll('.nav-link');
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const scrollToTopBtn = document.getElementById('scrollToTop');
+
+        // Active navigation link update
+        const updateActiveLink = () => {
+            const sections = document.querySelectorAll('section');
+            const scrollPos = window.scrollY + 100;
+
+            sections.forEach(section => {
+                const top = section.offsetTop;
+                const bottom = top + section.offsetHeight;
+                const id = section.getAttribute('id');
+
+                if (scrollPos >= top && scrollPos < bottom) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${id}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        };
+
+        // Smooth scrolling for navigation links
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                const navbarHeight = navbar.offsetHeight;
+
+                window.scrollTo({
+                    top: targetSection.offsetTop - navbarHeight + 1,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Mobile menu toggle
+        mobileMenuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Hide mobile menu on link click
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                }
+            });
+        });
+
+        // Scroll animations
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.animate-on-scroll');
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.classList.add('animated');
+                }
+            });
+        };
+
+        // Counter animation
+        const animateCounters = () => {
+            const counters = document.querySelectorAll('.stat-number');
+            counters.forEach(counter => {
+                const target = parseInt(counter.getAttribute('data-count'));
+                const count = parseInt(counter.innerText);
+                const increment = target / 100;
+
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + increment);
+                    setTimeout(() => animateCounters(), 20);
+                }
+            });
+        };
+
+        // Skill bars animation
+        const animateSkillBars = () => {
+            const skillBars = document.querySelectorAll('.skill-progress');
+            skillBars.forEach(bar => {
+                const width = bar.getAttribute('data-width');
+                bar.style.width = width;
+            });
+        };
+
+        // Project filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const filter = button.getAttribute('data-filter');
+                
+                // Update active filter button
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                // Filter projects
+                projectCards.forEach(card => {
+                    const categories = card.getAttribute('data-category');
+                    if (filter === 'all' || categories.includes(filter)) {
+                        card.style.display = 'block';
+                        card.style.animation = 'fadeInUp 0.5s ease forwards';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Typewriter effect
+        const typewriter = document.querySelector('.typewriter');
+        const text = typewriter.textContent;
+        typewriter.textContent = '';
+        
+        let i = 0;
+        const typing = () => {
+            if (i < text.length) {
+                typewriter.textContent += text.charAt(i);
+                i++;
+                setTimeout(typing, 100);
+            }
+        };
+        
+        setTimeout(typing, 1000);
+
+        // Scroll to top button functionality
+        window.addEventListener('scroll', () => {
+            updateActiveLink();
+            animateOnScroll();
+            
+            if (window.scrollY > 300) {
+                scrollToTopBtn.classList.add('visible');
+            } else {
+                scrollToTopBtn.classList.remove('visible');
+            }
+        });
+
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Navbar background change on scroll
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Initialize animations on page load
+        window.addEventListener('load', () => {
+            animateOnScroll();
+            setTimeout(animateCounters, 2000);
+            setTimeout(animateSkillBars, 3000);
+        });
+    </script>
+</body>
+</html>
